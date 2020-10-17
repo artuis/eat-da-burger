@@ -1,0 +1,13 @@
+{{#if eaten}}
+<li class="eaten">
+	{{name}}
+{{else}}
+<li class="uneaten">
+	{{name}}
+	<button class="change-eaten" data-id="{{id}}" data-neweaten="{{eaten}}">
+			CONSUME!
+	</button>
+{{/if}}
+
+	
+</li>
